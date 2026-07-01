@@ -1,0 +1,44 @@
+.stats-bar {
+  background: #162347;
+  color: #fff;
+  padding: 64px 0;
+}
+
+.stats-bar__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.stat__number {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.stat__suffix {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.stat__text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #8a99bc;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .stats-bar__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .stat__number {
+    font-size: 48px;
+  }
+}
