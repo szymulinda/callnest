@@ -1,3 +1,9 @@
+:root {
+  /* [EKSPERYMENT] Ciepły kolor akcentujący - jedyne źródło prawdy.
+     Aby zmienić odcień lub cofnąć do granatu, edytuj tę jedną linię. */
+  --accent-warm: #e8622c;
+}
+
 *,
 *::before,
 *::after {
@@ -126,6 +132,17 @@ a {
 .btn--cta {
   font-size: 16px;
   padding: 17px 38px;
+}
+
+/* [EKSPERYMENT] Ciepły akcent dla głównych CTA. Hover przyciemnia o ~13%
+   przez color-mix, więc odcień nadal pochodzi z jednej zmiennej. */
+.btn--accent {
+  background: var(--accent-warm);
+  color: #fff;
+}
+
+.btn--accent:hover {
+  background: color-mix(in srgb, var(--accent-warm) 87%, #000);
 }
 
 .reveal {

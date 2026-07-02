@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="hero__actions">
             <a
               href="#cta"
-              className="btn btn--white"
+              className="btn btn--accent"
               onClick={(event) => {
                 event.preventDefault();
                 openCalModal();

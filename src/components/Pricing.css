@@ -106,7 +106,8 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #fff;
-  background: #0d1b3e;
+  /* [EKSPERYMENT] Ciepły akcent na badge "Wybór 70% klientów" */
+  background: var(--accent-warm);
   padding: 6px 14px;
   border-radius: 20px;
 }
@@ -192,12 +193,14 @@
   line-height: 1.45;
 }
 
+/* [EKSPERYMENT] Wszystkie CTA w cenniku na ciepłym akcencie, tekst biały.
+   Hover przyciemnia o ~13% przez color-mix z tej samej zmiennej. */
 .pricing-card__cta {
   display: block;
   text-align: center;
   margin-top: auto;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: var(--accent-warm);
+  border: 1px solid var(--accent-warm);
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -208,18 +211,19 @@
 }
 
 .pricing-card__cta:hover {
-  border-color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.05);
+  background: color-mix(in srgb, var(--accent-warm) 87%, #000);
+  border-color: color-mix(in srgb, var(--accent-warm) 87%, #000);
 }
 
 .pricing-card__cta--filled {
-  background: #0d1b3e;
-  border-color: #0d1b3e;
+  background: var(--accent-warm);
+  border-color: var(--accent-warm);
   color: #fff;
 }
 
 .pricing-card__cta--filled:hover {
-  background: #060e26;
+  background: color-mix(in srgb, var(--accent-warm) 87%, #000);
+  border-color: color-mix(in srgb, var(--accent-warm) 87%, #000);
 }
 
 .pricing__note {

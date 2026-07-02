@@ -146,7 +146,7 @@ function PricingCard({
       <div className="pricing-card__features">
         {tier.features.map((feature) => (
           <div key={feature} className="pricing-card__feature">
-            <CheckIcon light={!lite} size={20} />
+            <CheckIcon light={!lite} size={20} accent />
             <span style={{ color: featTxt }}>{feature}</span>
           </div>
         ))}

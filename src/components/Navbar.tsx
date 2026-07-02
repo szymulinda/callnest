@@ -50,7 +50,7 @@ export default function Navbar() {
 
         <AppLink
           to="/#cta"
-          className="btn btn--nav navbar__cta"
+          className="btn btn--nav btn--accent navbar__cta"
           onClick={(event) => {
             event.preventDefault();
             setMenuOpen(false);

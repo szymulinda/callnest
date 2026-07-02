@@ -15,7 +15,7 @@ export default function Cta() {
         </p>
         <a
           href="mailto:jurkunszymon@gmail.com"
-          className="btn btn--primary btn--cta"
+          className="btn btn--accent btn--cta"
           onClick={(event) => {
             event.preventDefault();
             openCalModal();
