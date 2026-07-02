@@ -17,8 +17,7 @@
   font-size: 56px;
   font-weight: 600;
   letter-spacing: -0.03em;
-  /* [EKSPERYMENT] Kluczowe liczby (25%, 30%, 24/7) w ciepłym akcencie */
-  color: var(--accent-warm);
+  color: #fff;
 }
 
 .stat__suffix {
