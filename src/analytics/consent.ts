@@ -31,7 +31,7 @@ function ensureGtag(): void {
 }
 
 /**
- * Ustawia domyślny stan zgody (Consent Mode v2) na "denied" — musi zostać
+ * Ustawia domyślny stan zgody (Consent Mode v2) na "denied" - musi zostać
  * wywołane jak najwcześniej, zanim jakiekolwiek narzędzie Google się załaduje.
  */
 export function initConsentDefaults(): void {

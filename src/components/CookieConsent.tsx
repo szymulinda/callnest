@@ -74,7 +74,7 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
             <div className="cookie-banner__text">
               <p className="cookie-banner__title">Szanujemy Twoją prywatność</p>
               <p className="cookie-banner__desc">
-                Używamy plików cookies niezbędnych do działania strony oraz — za Twoją zgodą —
+                Używamy plików cookies niezbędnych do działania strony oraz - za Twoją zgodą -
                 analitycznych (Google Analytics), aby ulepszać serwis. Szczegóły znajdziesz w{' '}
                 <AppLink to="/polityka-prywatnosci" className="cookie-banner__link">
                   Polityce Prywatności

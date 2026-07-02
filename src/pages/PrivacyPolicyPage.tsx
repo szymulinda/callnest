@@ -3,9 +3,9 @@ import LegalMarkdown from '../components/LegalMarkdown';
 import privacyMarkdown from '../content/polityka-prywatnosci.md?raw';
 import '../components/LegalMarkdown.css';
 
-const PAGE_TITLE = 'Polityka Prywatności — Callnest';
+const PAGE_TITLE = 'Polityka Prywatności - Callnest';
 const PAGE_DESCRIPTION =
-  'Polityka prywatności Callnest — informacje o przetwarzaniu danych osobowych, cookies, transferach danych oraz Twoich prawach.';
+  'Polityka prywatności Callnest - informacje o przetwarzaniu danych osobowych, cookies, transferach danych oraz Twoich prawach.';
 
 export default function PrivacyPolicyPage() {
   useEffect(() => {

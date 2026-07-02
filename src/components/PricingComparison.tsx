@@ -40,7 +40,7 @@ function CellValue({ value }: { value: ComparisonCell }) {
     return (
       <span className="comparison-table__cell-inner">
         <span className="comparison-table__dash" aria-label="Nie">
-          —
+          -
         </span>
       </span>
     );

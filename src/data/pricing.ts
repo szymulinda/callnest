@@ -1,4 +1,4 @@
-/** Link do formularza / kalendarza demo — podmień na docelowy URL. */
+/** Link do formularza / kalendarza demo - podmień na docelowy URL. */
 export const PRICING_DEMO_URL = '#cta';
 
 export type BillingPeriod = 'monthly' | 'annual';

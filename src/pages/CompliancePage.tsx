@@ -3,9 +3,9 @@ import LegalMarkdown from '../components/LegalMarkdown';
 import complianceMarkdown from '../content/zgodnosc-i-rodo.md?raw';
 import '../components/LegalMarkdown.css';
 
-const PAGE_TITLE = 'Zgodność i RODO — Callnest';
+const PAGE_TITLE = 'Zgodność i RODO - Callnest';
 const PAGE_DESCRIPTION =
-  'Zgodność Callnest z RODO, PKE i AI Act — jak chronimy dane, zapewniamy przejrzystość AI i obsługujemy wyłącznie połączenia przychodzące.';
+  'Zgodność Callnest z RODO, PKE i AI Act - jak chronimy dane, zapewniamy przejrzystość AI i obsługujemy wyłącznie połączenia przychodzące.';
 
 export default function CompliancePage() {
   useEffect(() => {

@@ -1,4 +1,4 @@
-// Konfiguracja rezerwacji demo (Cal.com) — łatwa podmiana w jednym miejscu.
+// Konfiguracja rezerwacji demo (Cal.com) - łatwa podmiana w jednym miejscu.
 export const CALCOM_LINK = 'callnest/15-minutowe-demo';
 export const CALCOM_DOMAIN = 'https://cal.eu';
 
