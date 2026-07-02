@@ -8,9 +8,9 @@ import Pricing from '../components/Pricing';
 import Cta from '../components/Cta';
 import { useEffect } from 'react';
 
-const PAGE_TITLE = 'Callnest - Głosowi agenci AI dla MŚP';
+const PAGE_TITLE = 'Callnest — Głosowi agenci AI dla MŚP w Polsce';
 const PAGE_DESCRIPTION =
-  'Callnest - głosowi agenci AI dla MŚP. Odbierają telefony, umawiają wizyty i odpowiadają na pytania 24/7.';
+  'Callnest projektuje i prowadzi głosowych agentów AI, którzy odbierają połączenia Twojej firmy 24/7. Lokalny partner technologiczny dla MŚP.';
 
 export default function HomePage() {
   useEffect(() => {

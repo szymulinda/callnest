@@ -1,8 +1,11 @@
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HomePage from '../pages/HomePage';
 import PrivacyPolicyPage from '../pages/PrivacyPolicyPage';
 import CompliancePage from '../pages/CompliancePage';
+import { CookieConsentProvider } from '../components/CookieConsent';
+import { initCal } from '../booking/cal';
 import { AppRouter, usePathname } from '../router';
 
 function RoutedContent() {
@@ -21,13 +24,19 @@ function RoutedContent() {
 }
 
 export default function SiteLayout() {
+  useEffect(() => {
+    initCal();
+  }, []);
+
   return (
     <AppRouter>
-      <div className="app">
-        <Navbar />
-        <RoutedContent />
-        <Footer />
-      </div>
+      <CookieConsentProvider>
+        <div className="app">
+          <Navbar />
+          <RoutedContent />
+          <Footer />
+        </div>
+      </CookieConsentProvider>
     </AppRouter>
   );
 }

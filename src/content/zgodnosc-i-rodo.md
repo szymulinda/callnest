@@ -37,7 +37,7 @@ Nie musisz zakładać kont u zewnętrznych dostawców ani rozumieć technologii 
 
 ## Masz pytania o dane?
 
-Szczegółowe informacje o tym, jakie dane i na jakiej podstawie przetwarzamy, znajdziesz w naszej **[Polityce Prywatności](/polityka-prywatnosci)**. W każdej sprawie dotyczącej ochrony danych możesz też napisać do nas na adres **[kontakt@callnest.pl]**.
+Szczegółowe informacje o tym, jakie dane i na jakiej podstawie przetwarzamy, znajdziesz w naszej **[Polityce Prywatności](/polityka-prywatnosci)**. W każdej sprawie dotyczącej ochrony danych możesz też napisać do nas na adres **[jurkunszymon@gmail.com](mailto:jurkunszymon@gmail.com)**.
 
 ---
 

@@ -9,6 +9,7 @@ import {
   publicPricingTiers,
 } from '../data/pricing';
 import { useScrollReveal } from '../hooks/useScrollReveal';
+import { openCalModal } from '../booking/cal';
 import CheckIcon from './CheckIcon';
 import PricingComparison from './PricingComparison';
 import './CheckIcon.css';
@@ -153,6 +154,10 @@ function PricingCard({
       <a
         href={PRICING_DEMO_URL}
         className={`pricing-card__cta ${lite ? 'pricing-card__cta--filled' : ''}`}
+        onClick={(event) => {
+          event.preventDefault();
+          openCalModal();
+        }}
       >
         {tier.cta}
       </a>

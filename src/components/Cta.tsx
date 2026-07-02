@@ -1,4 +1,5 @@
 import { useScrollReveal } from '../hooks/useScrollReveal';
+import { openCalModal } from '../booking/cal';
 import './Cta.css';
 
 export default function Cta() {
@@ -12,7 +13,14 @@ export default function Cta() {
           Umów 15-minutowe demo. Pokażemy Ci żywego agenta zasilonego danymi Twojej firmy
           - nie slajdy.
         </p>
-        <a href="mailto:kontakt@callnest.pl" className="btn btn--primary btn--cta">
+        <a
+          href="mailto:jurkunszymon@gmail.com"
+          className="btn btn--primary btn--cta"
+          onClick={(event) => {
+            event.preventDefault();
+            openCalModal();
+          }}
+        >
           Umów demo
         </a>
         <p className="cta__trust">

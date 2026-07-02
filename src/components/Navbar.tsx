@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Logo from './Logo';
 import { AppLink } from '../router';
+import { openCalModal } from '../booking/cal';
 import './Navbar.css';
 
 const links = [
@@ -47,7 +48,15 @@ export default function Navbar() {
           ))}
         </div>
 
-        <AppLink to="/#cta" className="btn btn--nav navbar__cta">
+        <AppLink
+          to="/#cta"
+          className="btn btn--nav navbar__cta"
+          onClick={(event) => {
+            event.preventDefault();
+            setMenuOpen(false);
+            openCalModal();
+          }}
+        >
           Umów demo
         </AppLink>
 

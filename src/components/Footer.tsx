@@ -1,5 +1,7 @@
 import Logo from './Logo';
 import { AppLink } from '../router';
+import { useCookieConsent } from './CookieConsent';
+import { openCalModal } from '../booking/cal';
 import './Footer.css';
 
 const productLinks = [
@@ -14,6 +16,8 @@ const companyLinks = [
 ];
 
 export default function Footer() {
+  const { openSettings } = useCookieConsent();
+
   return (
     <footer className="footer">
       <div className="container">
@@ -48,14 +52,29 @@ export default function Footer() {
                   {link.label}
                 </AppLink>
               ))}
+              <button
+                type="button"
+                className="footer__link-btn"
+                onClick={openSettings}
+              >
+                Ustawienia cookies
+              </button>
             </div>
           </div>
 
           <div className="footer__col">
             <div className="footer__heading">Kontakt</div>
             <div className="footer__links">
-              <a href="mailto:kontakt@callnest.pl">kontakt@callnest.pl</a>
-              <AppLink to="/#cta">Umów demo</AppLink>
+              <a href="mailto:jurkunszymon@gmail.com">jurkunszymon@gmail.com</a>
+              <AppLink
+                to="/#cta"
+                onClick={(event) => {
+                  event.preventDefault();
+                  openCalModal();
+                }}
+              >
+                Umów demo
+              </AppLink>
             </div>
           </div>
         </div>

@@ -101,6 +101,12 @@
 }
 
 @media (max-width: 900px) {
+  .navbar--scrolled {
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
   .navbar__links {
     position: fixed;
     inset: 72px 0 0;

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Equalizer from './Equalizer';
+import { openCalModal } from '../booking/cal';
 import './Hero.css';
 
 export default function Hero() {
@@ -39,7 +40,14 @@ export default function Hero() {
             <span>Polski głos i obsługa</span>
           </p>
           <div className="hero__actions">
-            <a href="#cta" className="btn btn--white">
+            <a
+              href="#cta"
+              className="btn btn--white"
+              onClick={(event) => {
+                event.preventDefault();
+                openCalModal();
+              }}
+            >
               Umów 15-minutowe demo
             </a>
             <button type="button" className="btn btn--ghost" onClick={handleDemoToggle}>

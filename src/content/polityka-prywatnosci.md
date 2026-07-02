@@ -1,7 +1,6 @@
 # Polityka Prywatności Callnest
 
-**Data wejścia w życie:** [DD.MM.RRRR]
-**Ostatnia aktualizacja:** [DD.MM.RRRR]
+**Data wejścia w życie:** 01.07.2026 · **Ostatnia aktualizacja:** 01.07.2026
 
 Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób przetwarzane są dane osobowe w związku z korzystaniem ze strony internetowej Callnest, kontaktem z nami oraz świadczeniem przez nas usług głosowych agentów AI dla firm.
 
@@ -9,12 +8,7 @@ Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób przetwarzane są dane 
 
 ## 1. Administrator danych osobowych
 
-Administratorem Twoich danych osobowych jest:
-
-**[IMIĘ I NAZWISKO]**, prowadzący działalność pod marką **Callnest**
-Adres e-mail do kontaktu w sprawach danych osobowych: **[kontakt@callnest.pl]**
-
-> *Uwaga do uzupełnienia: po rejestracji jednoosobowej działalności gospodarczej (JDG) należy uzupełnić tę sekcję o pełną firmę, numer NIP oraz adres wykonywania działalności.*
+Administratorem Twoich danych osobowych jest **Szymon Jurkun**, prowadzący działalność pod marką **Callnest**. Adres e-mail do kontaktu w sprawach danych osobowych: **[jurkunszymon@gmail.com](mailto:jurkunszymon@gmail.com)**
 
 We wszystkich sprawach dotyczących przetwarzania danych osobowych oraz korzystania ze swoich praw możesz skontaktować się z nami pod adresem e-mail wskazanym powyżej.
 
@@ -74,7 +68,7 @@ W celu świadczenia usług korzystamy z zewnętrznych dostawców technologii, kt
 
 Z każdym z tych dostawców wiąże nas (lub będzie wiązać przed rozpoczęciem przetwarzania) odpowiednia umowa powierzenia przetwarzania danych.
 
-> *Uwaga do uzupełnienia: przed publikacją zaleca się dodanie tabeli konkretnych podwykonawców (nazwa, funkcja, lokalizacja, podstawa transferu), np. dostawca orkiestracji, STT, TTS, LLM, telefonii SIP, hostingu. Ułatwia to wykazanie rozliczalności i realizację obowiązku informacyjnego.*
+Szczegółową, imienną listę podmiotów przetwarzających udostępniamy na żądanie — w tym celu skontaktuj się z nami pod adresem e-mail z sekcji 1.
 
 ---
 
@@ -87,8 +81,6 @@ Takie przekazywanie odbywa się wyłącznie przy zastosowaniu zabezpieczeń wyma
 - w oparciu o **decyzję o adekwatności** / certyfikację w ramach programu ochrony danych UE–USA, o ile dany dostawca jest nią objęty.
 
 Masz prawo uzyskać informację o stosowanych zabezpieczeniach oraz ich kopię — w tym celu skontaktuj się z nami pod adresem z sekcji 1.
-
-> *Uwaga prawna do weryfikacji: to jeden z kluczowych punktów zgodności. Przed startem należy potwierdzić dla każdego dostawcy spoza EOG konkretną podstawę transferu (SCC lub certyfikacja Data Privacy Framework) i zachować dokumentację. Ten fragment koniecznie do przeglądu przez prawnika.*
 
 ---
 
@@ -109,13 +101,11 @@ Stosujemy przy tym środki ograniczające przetwarzanie do niezbędnego minimum,
 
 ## 8. Pliki cookies i analityka
 
-Nasza strona może wykorzystywać pliki cookies oraz podobne technologie:
-- **niezbędne** — konieczne do prawidłowego działania strony (podstawa: prawnie uzasadniony interes, art. 6 ust. 1 lit. f RODO),
-- **analityczne / statystyczne** — jeżeli są stosowane, wykorzystujemy je wyłącznie na podstawie Twojej **zgody** (art. 6 ust. 1 lit. a RODO), którą możesz w każdej chwili wycofać.
+Nasza strona wykorzystuje pliki cookies oraz podobne technologie:
+- **niezbędne** — konieczne do prawidłowego działania strony; podstawą jest nasz prawnie uzasadniony interes (art. 6 ust. 1 lit. f RODO),
+- **analityczne (Google Analytics)** — służą do analizy ruchu i sposobu korzystania ze strony w celu jej ulepszania. Dostawcą narzędzia jest Google. Korzystamy z nich wyłącznie po wyrażeniu przez Ciebie zgody (art. 6 ust. 1 lit. a RODO) za pośrednictwem baneru cookies. Zgodę możesz w każdej chwili wycofać lub zmienić w ustawieniach cookies. W ramach tej usługi dane mogą być przekazywane do Google poza EOG — zob. sekcja 6.
 
-Ustawienia plików cookies możesz zmienić w swojej przeglądarce.
-
-> *Uwaga do uzupełnienia: dostosuj tę sekcję do faktycznie używanych narzędzi (np. jeśli wdrożysz Google Analytics / Meta Pixel — wymagany baner zgody i rozszerzenie tej sekcji; jeśli strona nie używa żadnej analityki, pozostaw tylko cookies niezbędne).*
+Ustawienia plików cookies możesz również zmienić w swojej przeglądarce.
 
 ---
 
@@ -144,7 +134,3 @@ Nie podejmujemy wobec osób, których dane dotyczą, decyzji opierających się 
 ## 11. Zmiany Polityki Prywatności
 
 Możemy okresowo aktualizować niniejszą Politykę Prywatności, np. w związku ze zmianą przepisów lub zakresu usług. Aktualna wersja jest zawsze dostępna na naszej stronie, ze wskazaniem daty ostatniej aktualizacji.
-
----
-
-*Dokument przygotowany jako wzór roboczy dopasowany do działalności Callnest. Przed publikacją zalecana weryfikacja przez radcę prawnego / doradcę ds. ochrony danych, w szczególności w zakresie sekcji 4 (obowiązek informacyjny wobec danych ze źródeł publicznych), sekcji 5–6 (podwykonawcy i transfery poza EOG) oraz sekcji 8 (cookies).*
