@@ -69,7 +69,7 @@ function ComparisonTable({ billingPeriod }: { billingPeriod: BillingPeriod }) {
               <th key={tier.id} scope="col" className="comparison-table__tier-col">
                 <span className="comparison-table__tier-name">{tier.name}</span>
                 <span className="comparison-table__tier-price">
-                  {formatPrice(getDisplayPrice(tier.basePrice, billingPeriod))} zł
+                  {formatPrice(getDisplayPrice(tier.price, billingPeriod))} zł
                   <span className="comparison-table__tier-period"> / mies.</span>
                 </span>
               </th>

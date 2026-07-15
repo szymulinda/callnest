@@ -108,7 +108,7 @@ function PricingCard({
   const txt = lite ? '#0A0E1A' : '#fff';
   const muted = '#8A99BC';
   const featTxt = lite ? '#3D4F7C' : '#C3CCE0';
-  const displayPrice = getDisplayPrice(tier.basePrice, billingPeriod);
+  const displayPrice = getDisplayPrice(tier.price, billingPeriod);
 
   return (
     <div
@@ -124,9 +124,6 @@ function PricingCard({
         <span className="pricing-card__period" style={{ color: muted }}>
           zł / mies.
         </span>
-      </div>
-      <div className="pricing-card__vat" style={{ color: muted }}>
-        +23% VAT
       </div>
       {billingPeriod === 'annual' && (
         <div className="pricing-card__annual-note" style={{ color: muted }}>

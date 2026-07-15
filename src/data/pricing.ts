@@ -8,7 +8,8 @@ export type TierKey = 'starter' | 'pro' | 'scale';
 export type PublicPricingTier = {
   id: TierKey;
   name: string;
-  basePrice: number;
+  /** Kwota ostateczna (brutto) wyświetlana w cenniku — bez osobnego przeliczania VAT. */
+  price: number;
   limit: string;
   over: string;
   forWho: string;
@@ -21,15 +22,14 @@ export const publicPricingTiers: PublicPricingTier[] = [
   {
     id: 'starter',
     name: 'Starter',
-    basePrice: 1100,
+    price: 1100,
     limit: '600 minut miesięcznie',
     over: '0,65 zł/min',
-    forWho: 'Małe salony beauty, warsztaty',
+    forWho: 'Małe studia detailingu, warsztaty samochodowe',
     features: [
       'Odbiór połączeń 24/7',
       'FAQ i kwalifikacja rozmówcy',
-      'Integracja Google Calendar',
-      'Umawianie i potwierdzanie wizyt',
+      'Zbieranie zgłoszeń i przekazanie SMS-em',
       'Raport tygodniowy na WhatsApp',
     ],
     cta: 'Umów demo',
@@ -38,15 +38,14 @@ export const publicPricingTiers: PublicPricingTier[] = [
   {
     id: 'pro',
     name: 'Pro',
-    basePrice: 1600,
+    price: 1600,
     limit: '1 200 minut miesięcznie',
     over: '0,60 zł/min',
-    forWho: 'Duże salony, hotele, gabinety',
+    forWho: 'Większe studia detailingu, warsztaty wielostanowiskowe',
     features: [
       'Wszystko ze Starter',
-      'Integracja Booksy / Versum / Google Calendar',
-      'Obsługa złożonych rezerwacji (wiele usług i pracowników jednocześnie)',
-      'Przekładanie i odwoływanie wizyt',
+      'Personalizacja pod pełną ofertę usług (marka, model, zakres, opis)',
+      'Obsługa wielu pojazdów i typów zgłoszeń (auto, motocykl, flota)',
       'Raport tygodniowy z wyliczonym ROI',
       'Priorytetowe wsparcie techniczne',
     ],
@@ -56,14 +55,14 @@ export const publicPricingTiers: PublicPricingTier[] = [
   {
     id: 'scale',
     name: 'Scale',
-    basePrice: 2800,
+    price: 2800,
     limit: '2 500 minut miesięcznie',
     over: '0,55 zł/min',
-    forWho: 'Kliniki, sieci salonów, większe SMB',
+    forWho: 'Sieci warsztatów, duże studia detailingu, flota B2B',
     features: [
       'Wszystko z Pro',
       'Dedykowana integracja API / systemy zewnętrzne',
-      'Automatyczne przypomnienia o wizytach (dla obecnych klientów)',
+      'Kwalifikacja i priorytetyzacja zgłoszeń wg wartości zlecenia',
       'SLA 99,5% uptime gwarantowany',
       'Miesięczny call optymalizacyjny',
       'Dedykowany opiekun wdrożenia',
@@ -74,15 +73,15 @@ export const publicPricingTiers: PublicPricingTier[] = [
 ];
 
 export const pricingFooterNote =
-  'Wdrożenie jednorazowo 1 200 zł netto - lub bez opłaty startowej przy podpisaniu umowy na 3 miesiące. Wszystkie ceny netto, infrastruktura wliczona.';
+  'Wdrożenie jednorazowo 1 200 zł - lub bez opłaty startowej przy podpisaniu umowy na 3 miesiące. Infrastruktura wliczona.';
 
 export function formatPrice(amount: number): string {
   return new Intl.NumberFormat('pl-PL').format(amount);
 }
 
-export function getDisplayPrice(basePrice: number, period: BillingPeriod): number {
-  if (period === 'monthly') return basePrice;
-  return Math.round(basePrice * 0.85);
+export function getDisplayPrice(price: number, period: BillingPeriod): number {
+  if (period === 'monthly') return price;
+  return Math.round(price * 0.85);
 }
 
 export type ComparisonCell = string | boolean;
