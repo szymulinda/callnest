@@ -63,7 +63,7 @@ export const publicPricingTiers: PublicPricingTier[] = [
       'Wszystko z Pro',
       'Dedykowana integracja API / systemy zewnętrzne',
       'Kwalifikacja i priorytetyzacja zgłoszeń wg wartości zlecenia',
-      'SLA 99,5% uptime gwarantowany',
+      'Osobisty kontakt z opiekunem wdrożenia poza godzinami pracy',
       'Miesięczny call optymalizacyjny',
       'Dedykowany opiekun wdrożenia',
     ],
