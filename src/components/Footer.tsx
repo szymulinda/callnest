@@ -80,7 +80,16 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <span>© 2026 Callnest. Wszelkie prawa zastrzeżone.</span>
+          <div className="footer__bottom-left">
+            <span>© 2026 Callnest. Wszelkie prawa zastrzeżone.</span>
+            <span className="footer__attribution-sep">-</span>
+            <span className="footer__attribution">
+              Strona wykonana przez{' '}
+              <a href="https://szymonjurkun.pl" className="footer__attribution-link">
+                Szymon Jurkun
+              </a>
+            </span>
+          </div>
           <span>Zgodność z PKE · AI Act · RODO</span>
         </div>
       </div>
